@@ -1,0 +1,49 @@
+.bg-fixed
+.hero
+  .row
+    .large-12.columns
+      
+      .avatar-fixed
+        = image_tag 'avatar.png'
+        .social
+          %a{ :href => "http://www.twitter.com/EnrileHarvey", :target => "_blank" }
+            %i.icon-twitter
+          %a{ :href => "http://www.linkedin.com/pub/harvey-enrile/19/983/431", :target => "_blank" }
+            %i.icon-linkedin
+      %h1.bordered
+        Harvey Enrile
+        .label-title
+          WEB DESIGN
+      
+          %span.seperator
+          UI
+          %span.seperator
+          UX
+      %p
+        Hi, I'm a web/ui designer and front-end developer from the tropical island of Cebu, Philippines
+      %p
+        Web design was something I got curious about, before it wasn't that great years back, now it has evolved into something chaotic but beautiful. It sure is something that I'm loving now and it has given me the opportunity to work with awesome and talented people. Aside from my work, I love taking pictures, being active and go backpacking with my wife
+      %p
+        I craft user friendly websites and user interfaces starting from the initial idea to wireframing, prototyping to launching the product while keeping the user experience and flow intact.
+      
+      %p
+        If you would like to discuss a project then you can email me at
+        %span.email
+          harvey.enrile@gmail.com
+
+      %h3
+        currently involved in
+      %ul.list
+        %li
+          %a{ :href => "http://www.offerchat.com", :target => "_blank" }
+            Offerchat
+        %li
+          %a{ :href => "http://www.edeyalabs.com", :target => "_blank" } 
+            Edeyalabs
+
+.content
+  / - @posts.each do |post|
+  /   .post
+  /     %h3.post-title
+  /       = post.title
+  /     = post.body
